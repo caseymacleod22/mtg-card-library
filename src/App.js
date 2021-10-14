@@ -3,9 +3,14 @@ import './App.css';
 
 function App() {
   return (
-    <h1 className="App">
-      MTG Card Library
-    </h1>
+    <div>
+      <h1 className="App">
+        MTG Card Library
+      </h1>
+      <h3>
+        CARDS HERE
+      </h3>
+    </div>
   );
 }
 
