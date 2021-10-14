@@ -13,6 +13,9 @@ function App() {
       <h4>
         CARD INFO HERE
       </h4>
+      <h5>
+        SET INFO HERE
+      </h5>
     </div>
   );
 }
