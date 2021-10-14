@@ -10,6 +10,9 @@ function App() {
       <h3>
         CARDS HERE
       </h3>
+      <h4>
+        CARD INFO HERE
+      </h4>
     </div>
   );
 }
