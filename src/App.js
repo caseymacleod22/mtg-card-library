@@ -13,7 +13,7 @@ function App() {
         CARD INFO HERE
       </h4>
       <h5>
-        {/* SET INFO HERE */}
+        SET INFO HERE
       </h5>
     </div>
   );
