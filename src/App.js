@@ -14,6 +14,7 @@ function App() {
       </h4>
       <h5>
         SET INFO HERE
+        Set symbol?
       </h5>
     </div>
   );
