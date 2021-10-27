@@ -15,6 +15,7 @@ function App() {
       <h5>
         SET INFO HERE
         Set symbol?
+        Card Price?
       </h5>
     </div>
   );
