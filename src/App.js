@@ -17,6 +17,7 @@ function App() {
         Set symbol?
         Card Price?
         Purchase links?
+        Popular decks?
       </h5>
     </div>
   );
