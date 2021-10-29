@@ -13,11 +13,11 @@ function App() {
         CARD INFO HERE
       </h4>
       <h5>
-        {/* SET INFO HERE
+        SET INFO HERE
         Set symbol?
         Card Price?
         Purchase links?
-        Popular decks? */}
+        Popular decks?
       </h5>
     </div>
   );
