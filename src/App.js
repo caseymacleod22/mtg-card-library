@@ -16,6 +16,7 @@ function App() {
         SET INFO HERE
         Set symbol?
         Card Price?
+        Purchase links?
       </h5>
     </div>
   );
