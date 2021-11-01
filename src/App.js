@@ -4,7 +4,7 @@ function App() {
   return (
     <div>
       <h1 className="App">
-        MTG Card Library
+        {/* MTG Card Library */}
       </h1>
       <h3>
         CARDS HERE
