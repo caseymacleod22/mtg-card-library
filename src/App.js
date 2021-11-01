@@ -7,7 +7,7 @@ function App() {
         MTG Card Library
       </h1>
       <h3>
-        {/* CARDS HERE */}
+        CARDS HERE
       </h3>
       <h4>
         CARD INFO HERE
