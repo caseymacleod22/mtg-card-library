@@ -8,6 +8,7 @@ function App() {
       </h1>
       <h3>
         CARDS HERE
+        TODO: connect to scryfall api
       </h3>
       <h4>
         CARD INFO HERE
