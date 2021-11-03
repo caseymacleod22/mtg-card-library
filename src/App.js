@@ -1,4 +1,5 @@
 import './App.css'
+import Modal from './components/Modal'
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
         MTG Card Library
       </h1>
       <h3>
+        <Modal />
         CARDS HERE
         TODO: connect to scryfall api
         TODO: add map function
