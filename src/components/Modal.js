@@ -1,7 +1,7 @@
 function Modal() {
     return (
         <div>
-            {/* MODAL DUMMY TEXT */}
+            MODAL DUMMY TEXT
         </div>
     )
 }
