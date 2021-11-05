@@ -14,7 +14,7 @@ function App() {
         TODO: add map function
       </h3>
       <h4>
-        CARD INFO HERE
+        {/* CARD INFO HERE */}
       </h4>
       <h5>
         SET INFO HERE
