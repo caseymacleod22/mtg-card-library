@@ -9,9 +9,9 @@ function App() {
       </h1>
       <h3>
         <Modal />
-        {/* CARDS HERE
+        CARDS HERE
         TODO: connect to scryfall api
-        TODO: add map function */}
+        TODO: add map function
       </h3>
       <h4>
         CARD INFO HERE
