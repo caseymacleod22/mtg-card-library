@@ -1,6 +1,6 @@
 function Modal() {
     return (
-        <div>
+        <div className='cardmodal'>
             MODAL DUMMY TEXT
         </div>
     )
