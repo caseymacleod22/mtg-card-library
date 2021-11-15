@@ -8,7 +8,7 @@ function App() {
         MTG Card Library
       </h1>
       <h3>
-        <Modal />
+        {/* <Modal /> */}
         CARDS HERE
         TODO: connect to scryfall api
         TODO: add map function
