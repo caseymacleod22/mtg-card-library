@@ -23,9 +23,7 @@ export default function Container() {
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                    <p>
-                        <DataFetching />
-                    </p>
+                    <DataFetching />
                 </AccordionItemPanel>
             </AccordionItem>
         </Accordion>
