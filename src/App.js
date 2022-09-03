@@ -1,10 +1,12 @@
 import './App.css'
 import DataFetching from './components/DataFetching';
+import Container from './components/Container';
 
 function App() {
   return (
     <div className="App">
-      <DataFetching />
+      <Container />
+      {/* <DataFetching /> */}
     </div>
   );
 }
