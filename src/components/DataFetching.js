@@ -15,7 +15,7 @@ function DataFetching() {
             }) 
         )
             console.log(results)
-        setSets(res.data)
+            setSets(results)
             }).catch(err => {
                 console.log(err)
             })
@@ -23,7 +23,7 @@ function DataFetching() {
     return (
         <div>
             <ul>
-                {/* {sets.results} */}
+                <li>{sets}</li>
             </ul>
         </div>
     )
