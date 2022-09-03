@@ -1,5 +1,6 @@
 import React from 'react';
 import DataFetching from './DataFetching';
+import '../App.css'
 
 import {
     Accordion,

@@ -53,3 +53,14 @@
   width: 40px;
   padding-left: 10px;
 }
+
+.accordion__button {
+  background-color: #f4f4f4;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center!important;
+  border: none;
+  font-size: 1.3em;
+}
