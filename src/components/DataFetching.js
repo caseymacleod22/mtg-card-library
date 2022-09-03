@@ -10,7 +10,10 @@ function DataFetching() {
         .then(res => {
             let results = res.data.data.map((setName => {
                 return (
-                    <li key={setName.id}>{setName.name}</li>
+                    <div>
+                        <li key={setName.id}>{setName.name}</li>
+                        <img className="setsymbol" src={setName.icon_svg_uri}/>
+                    </div>
                 )
             }) 
         )
@@ -21,10 +24,8 @@ function DataFetching() {
             })
         }, [])
     return (
-        <div>
-            <ul>
-                <li key={sets.index}>{sets}</li>
-            </ul>
+        <div className="sets">
+            {sets}
         </div>
     )
 }
