@@ -14,7 +14,7 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 
 export default function Container() {
     return (
-        <Accordion>
+        <Accordion allowZeroExpanded>
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
