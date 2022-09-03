@@ -10,9 +10,9 @@ function DataFetching() {
         .then(res => {
             let results = res.data.data.map((setName => {
                 return (
-                    <div>
+                    <div className="set-container">
                         <li key={setName.id}>{setName.name}</li>
-                        <img className="setsymbol" src={setName.icon_svg_uri}/>
+                        <img className="set-symbol" src={setName.icon_svg_uri}/>
                     </div>
                 )
             }) 

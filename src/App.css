@@ -41,7 +41,15 @@
   list-style: none;
 }
 
-.setsymbol {
+.set-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.set-symbol {
   height: 30px;
   width: 40px;
+  padding-left: 10px;
 }
