@@ -10,7 +10,7 @@ function DataFetching() {
         .then(res => {
             let results = res.data.data.map((setName => {
                 return (
-                    setName.name
+                    <li key={setName.id}>{setName.name}</li>
                 )
             }) 
         )
@@ -23,7 +23,7 @@ function DataFetching() {
     return (
         <div>
             <ul>
-                <li>{sets}</li>
+                <li key={sets.index}>{sets}</li>
             </ul>
         </div>
     )
