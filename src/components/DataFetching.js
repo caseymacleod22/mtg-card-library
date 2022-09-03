@@ -8,7 +8,12 @@ function DataFetching() {
         axios
         .get('https://api.scryfall.com/sets')
         .then(res => {
-            let results = res.data.data[0].name
+            let results = res.data.data.map((setName => {
+                return (
+                    setName.name
+                )
+            }) 
+        )
             console.log(results)
         setSets(res.data)
             }).catch(err => {
@@ -18,7 +23,7 @@ function DataFetching() {
     return (
         <div>
             <ul>
-                {/* {console.log(sets.data.id)} */}
+                {/* {sets.results} */}
             </ul>
         </div>
     )
