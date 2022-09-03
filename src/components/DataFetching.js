@@ -2,14 +2,15 @@ import React, {useState, useEffect} from "react";
 import axios from "axios";
 
 function DataFetching() {
-    const [posts, setPosts] = useState([])
+    const [sets, setSets] = useState([])
 
     useEffect(() => {
         axios
-        .get('https://jsonplaceholder.typicode.com/posts')
+        .get('https://api.scryfall.com/sets')
         .then(res => {
-            console.log(res)
-        setPosts(res.data)
+            let results = res.data.data[0].name
+            console.log(results)
+        setSets(res.data)
             }).catch(err => {
                 console.log(err)
             })
@@ -17,9 +18,7 @@ function DataFetching() {
     return (
         <div>
             <ul>
-                {posts.map(post => (
-                    <li key={post.id}>{post.title}</li>
-                ))}
+                {/* {console.log(sets.data.id)} */}
             </ul>
         </div>
     )
