@@ -14,10 +14,12 @@ export default function CardMarket() {
             console.log(cardImage)
             console.log(results)
             setCard(results)
+            setCard(cardImage)
             })
         }, [])
     return (
         <div className="sets">
+            <img src={card} alt="" />
             {card}
         </div>
     )
