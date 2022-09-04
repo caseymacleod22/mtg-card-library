@@ -9,14 +9,14 @@ export default function RandomCard() {
         axios
         .get('https://api.scryfall.com/cards/random')
         .then(res => {
-            let results = res.data.name
+            let results = res.data.image_uris.small
             console.log(results)
             setCard(results)
             })
         }, [])
     return (
         <div className="sets">
-            {card}
+            <img src={card} alt="" />
         </div>
     )
 }
