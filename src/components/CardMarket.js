@@ -9,11 +9,11 @@ export default function CardMarket() {
         axios
         .get('https://api.scryfall.com/cards/cardmarket/379041')
         .then(res => {
-            let results = res.data.prices.usd
+            let price = res.data.prices.usd
             let cardImage = res.data.image_uris.small
             console.log(cardImage)
-            console.log(results)
-            setCard(results)
+            console.log(price)
+            setCard(price)
             setCard(cardImage)
             })
         }, [])
