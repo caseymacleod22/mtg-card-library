@@ -17,7 +17,8 @@ export default function CardMarket() {
             })
         }, [])
     return (
-        <div className="sets">
+        <div className="card-market">
+            <h1>Trending Cards</h1>
             <img src={card} alt="" />
             <CardMarketPrice />
         </div>
