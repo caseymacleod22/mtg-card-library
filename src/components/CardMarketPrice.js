@@ -1,25 +1,23 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
 import '../App.css'
-import CardMarketPrice from "./CardMarketPrice";
 
-export default function CardMarket() {
+export default function CardMarketPrice() {
     const [card, setCard] = useState([])
 
     useEffect(() => {
         axios
         .get('https://api.scryfall.com/cards/cardmarket/379041')
         .then(res => {
-            let cardImage = res.data.image_uris.small
-            console.log(cardImage)
-            setCard(cardImage)
-            // setCard(price)
+            let price = res.data.prices.usd
+            console.log(price)
+            setCard(price)
             })
         }, [])
     return (
         <div className="sets">
             <img src={card} alt="" />
-            <CardMarketPrice />
+            {card}
         </div>
     )
 }
