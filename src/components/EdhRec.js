@@ -11,7 +11,9 @@ export default function EdhRec() {
         .then(res => {
             let rec = res.data.data.map(cardName => {
                 return (
-                    console.log(cardName.name)
+                    <div>
+                        <li key={cardName.id}>{cardName.name}</li>
+                    </div>
                 )
             })
             console.log(rec)
@@ -20,7 +22,7 @@ export default function EdhRec() {
         }, [])
     return (
         <div className="sets">
-            
+            {card}
         </div>
     )
 }
