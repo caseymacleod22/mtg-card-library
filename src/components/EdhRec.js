@@ -22,7 +22,7 @@ export default function EdhRec() {
         }, [])
     return (
         <div className="sets">
-            {/* <h1>EDHRec Data</h1> */}
+            <h1>EDHRec Data</h1>
             {card}
         </div>
     )
