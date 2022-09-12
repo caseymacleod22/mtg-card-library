@@ -12,7 +12,7 @@ function DataFetching() {
                 return (
                     <div className="set-container">
                         <li key={setName.id}>{setName.name}</li>
-                        <img className="set-symbol" src={setName.icon_svg_uri}/>
+                        <img className="set-symbol" alt ="set symbol" src={setName.icon_svg_uri}/>
                     </div>
                 )
             }) 

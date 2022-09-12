@@ -53,3 +53,14 @@
 .card-market {
   margin-top: 5rem;
 }
+
+.green-edh-cards{
+  background-color: rgb(168,211,178);
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center!important;
+  border: none;
+  font-size: 1.3em;
+}

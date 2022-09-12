@@ -1,6 +1,7 @@
 import React from 'react';
 import DataFetching from './DataFetching';
 import RandomCard from './RandomCard';
+import EdhRec from './EdhRec';
 import '../App.css'
 
 import {
@@ -25,6 +26,7 @@ export default function Container() {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <RandomCard />
+                    <EdhRec />
                 </AccordionItemPanel>
             </AccordionItem>
         </Accordion>

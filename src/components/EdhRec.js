@@ -2,6 +2,17 @@ import React, {useState, useEffect} from "react";
 import axios from "axios";
 import '../App.css'
 
+import {
+    Accordion,
+    AccordionItem,
+    AccordionItemHeading,
+    AccordionItemButton,
+    AccordionItemPanel,
+} from 'react-accessible-accordion';
+
+// Demo styles, see 'Styles' section below for some notes on use.
+import 'react-accessible-accordion/dist/fancy-example.css';
+
 export default function EdhRec() {
     const [card, setCard] = useState([])
 
@@ -21,9 +32,20 @@ export default function EdhRec() {
             })
         }, [])
     return (
-        <div className="sets">
-            <h1>EDHRec Data</h1>
-            {card}
-        </div>
+        <Accordion allowZeroExpanded>
+        <AccordionItem>
+            <AccordionItemHeading>
+                <AccordionItemButton className="green-edh-cards">
+                    Green Edh Cards
+                </AccordionItemButton>
+            </AccordionItemHeading>
+            <AccordionItemPanel>
+            <div className="sets">
+                {/* <h1>Green Cards EDHRec Data</h1> */}
+                {card}
+            </div>
+            </AccordionItemPanel>
+        </AccordionItem>
+    </Accordion>
     )
 }
