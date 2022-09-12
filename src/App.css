@@ -64,3 +64,14 @@
   border: none;
   font-size: 1.3em;
 }
+
+.red-edh-cards{
+  background-color: rgb(238, 175, 149);
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center!important;
+  border: none;
+  font-size: 1.3em;
+}
