@@ -4,6 +4,7 @@ import Container from './components/Container';
 import RandomAccordion from './components/RandomAccordion';
 import CardMarket from './components/CardMarket';
 import GreenEdhRec from './components/GreenEdhRec';
+import RedEdhRec from './components/RedEdhRec';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <RandomAccordion />
       <CardMarket />
       <GreenEdhRec />
+      <RedEdhRec />
     </div>
   );
 }
