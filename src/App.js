@@ -3,7 +3,7 @@ import './App.css'
 import Container from './components/Container';
 import RandomAccordion from './components/RandomAccordion';
 import CardMarket from './components/CardMarket';
-import EdhRec from './components/EdhRec';
+import GreenEdhRec from './components/GreenEdhRec';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Container />
       <RandomAccordion />
       <CardMarket />
-      <EdhRec />
+      <GreenEdhRec />
     </div>
   );
 }

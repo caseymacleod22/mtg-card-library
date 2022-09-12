@@ -13,7 +13,7 @@ import {
 // Demo styles, see 'Styles' section below for some notes on use.
 import 'react-accessible-accordion/dist/fancy-example.css';
 
-export default function EdhRec() {
+export default function GreenEdhRec() {
     const [card, setCard] = useState([])
 
     useEffect(() => {
