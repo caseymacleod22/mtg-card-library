@@ -73,3 +73,15 @@
   border: none;
   font-size: 1.3em;
 }
+
+.white-edh-cards{
+  background-color: rgb(238, 175, 149);
+  background-color: #FEFBDA;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center!important;
+  border: none;
+  font-size: 1.3em;
+}
