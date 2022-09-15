@@ -107,3 +107,14 @@
   border: none;
   font-size: 1.3em;
 }
+
+.blue-edh-cards{
+  background-color: #B7DFF7;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center!important;
+  border: none;
+  font-size: 1.3em;
+}

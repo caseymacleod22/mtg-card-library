@@ -7,6 +7,7 @@ import GreenEdhRec from './components/GreenEdhRec';
 import RedEdhRec from './components/RedEdhRec';
 import WhiteEdhRec from './components/WhiteEdhRec';
 import BlackEdhRec from './components/BlackEdhRec';
+import BlueEdhRec from './components/BlueEdhRec';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <RedEdhRec />
       <WhiteEdhRec />
       <BlackEdhRec />
+      <BlueEdhRec />
     </div>
   );
 }
