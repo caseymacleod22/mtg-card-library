@@ -6,6 +6,7 @@ import CardMarket from './components/CardMarket';
 import GreenEdhRec from './components/GreenEdhRec';
 import RedEdhRec from './components/RedEdhRec';
 import WhiteEdhRec from './components/WhiteEdhRec';
+import BlackEdhRec from './components/BlackEdhRec';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <GreenEdhRec />
       <RedEdhRec />
       <WhiteEdhRec />
+      <BlackEdhRec />
     </div>
   );
 }

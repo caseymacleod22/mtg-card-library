@@ -85,3 +85,25 @@
   border: none;
   font-size: 1.3em;
 }
+
+.white-edh-cards{
+  background-color: #FEFBDA;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center!important;
+  border: none;
+  font-size: 1.3em;
+}
+
+.black-edh-cards{
+  background-color: #CBC4C1;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center!important;
+  border: none;
+  font-size: 1.3em;
+}
