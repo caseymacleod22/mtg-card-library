@@ -15,11 +15,11 @@ function App() {
       <Container />
       <RandomAccordion />
       <CardMarket />
-      <GreenEdhRec />
-      <RedEdhRec />
       <WhiteEdhRec />
-      <BlackEdhRec />
       <BlueEdhRec />
+      <BlackEdhRec />
+      <RedEdhRec />
+      <GreenEdhRec />      
     </div>
   );
 }
