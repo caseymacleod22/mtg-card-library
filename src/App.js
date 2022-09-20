@@ -18,7 +18,7 @@ function App() {
       <WhiteEdhRec />
       <BlueEdhRec />
       <BlackEdhRec />
-      {/* <RedEdhRec /> */}
+      <RedEdhRec />
       <GreenEdhRec />      
     </div>
   );
