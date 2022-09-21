@@ -23,7 +23,7 @@ export default function BlackEdhRec() {
             let rec = res.data.data.map(cardName => {
                 return (
                     <div>
-                        <li key={cardName.id}>{cardName.name}</li>
+                        <li key={cardName.id}>{cardName.name} / ${cardName.prices.usd}</li>
                     </div>
                 )
             })
