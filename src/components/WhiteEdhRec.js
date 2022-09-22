@@ -36,7 +36,7 @@ export default function WhiteEdhRec() {
         <AccordionItem>
             <AccordionItemHeading>
                 <AccordionItemButton className="white-edh-cards">
-                    {/* White Edh Cards */}
+                    White Edh Cards
                 </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel>
