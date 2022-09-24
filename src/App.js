@@ -11,6 +11,7 @@ import BlackEdhRec from './components/BlackEdhRec';
 import BlueEdhRec from './components/BlueEdhRec';
 import Nav from './components/Nav';
 import Contact from './components/Contact';
+import Home from './components/Home';
 
 function App() {
   return (
@@ -23,14 +24,7 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-      <Container />
-      <RandomAccordion />
-      <CardMarket />
-      <WhiteEdhRec />
-      <BlueEdhRec />
-      <BlackEdhRec />
-      <RedEdhRec />
-      <GreenEdhRec />      
+      <Home />     
     </div>
   );
 }
