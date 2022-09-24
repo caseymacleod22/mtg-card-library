@@ -24,7 +24,6 @@ html, body {
   justify-content: space-between;
   background-color: #00BAF0;
   background: linear-gradient(to left, #0f7bb5, #04acdf);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #FFF;
   height: 50px;
   padding: 1em;

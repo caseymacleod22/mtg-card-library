@@ -1,4 +1,5 @@
 import './App.css'
+import { BrowserRouter, Router, Routes, Route } from 'react-router-dom';
 // import DataFetching from './components/DataFetching';
 import Container from './components/Container';
 import RandomAccordion from './components/RandomAccordion';
@@ -9,6 +10,7 @@ import WhiteEdhRec from './components/WhiteEdhRec';
 import BlackEdhRec from './components/BlackEdhRec';
 import BlueEdhRec from './components/BlueEdhRec';
 import Nav from './components/Nav';
+import Contact from './components/Contact';
 
 function App() {
   return (
