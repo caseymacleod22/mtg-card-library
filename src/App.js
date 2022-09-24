@@ -16,6 +16,13 @@ function App() {
   return (
     <div className="App">
       <Nav />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/">
+            <Route path="contact" element={<Contact />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
       <Container />
       <RandomAccordion />
       <CardMarket />
