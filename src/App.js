@@ -8,10 +8,12 @@ import RedEdhRec from './components/RedEdhRec';
 import WhiteEdhRec from './components/WhiteEdhRec';
 import BlackEdhRec from './components/BlackEdhRec';
 import BlueEdhRec from './components/BlueEdhRec';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div className="App">
+      <Nav />
       <Container />
       <RandomAccordion />
       <CardMarket />
