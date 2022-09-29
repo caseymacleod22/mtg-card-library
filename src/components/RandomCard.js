@@ -16,7 +16,7 @@ export default function RandomCard() {
         }, [])
     return (
         <div className="sets">
-            <img src={card} alt="" />
+            {/* <img src={card} alt="" /> */}
         </div>
     )
 }
