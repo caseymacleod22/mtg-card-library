@@ -20,7 +20,7 @@ export default function Container() {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        Click to See Your New Favorite Card!
+                        {/* Click to See Your New Favorite Card! */}
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
