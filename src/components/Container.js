@@ -19,7 +19,7 @@ export default function Container() {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        {/* Click to See All MTG Sets! */}
+                        Click to See All MTG Sets!
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
