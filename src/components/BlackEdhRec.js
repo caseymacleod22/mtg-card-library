@@ -27,7 +27,7 @@ export default function BlackEdhRec() {
                     </div>
                 )
             })
-            console.log(rec)
+            // console.log(rec)
             setCard(rec)
             })
         }, [])
