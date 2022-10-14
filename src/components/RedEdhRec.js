@@ -28,7 +28,7 @@ export default function RedEdhRec() {
                 )
             })
             console.log(rec)
-            setCard(rec)
+            // setCard(rec)
             })
         }, [])
     return (
