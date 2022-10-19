@@ -14,7 +14,7 @@ import {
 import 'react-accessible-accordion/dist/fancy-example.css';
 
 export default function RedEdhRec() {
-    const [card, setCard] = useState([])
+    // const [card, setCard] = useState([])
 
     useEffect(() => {
         axios
