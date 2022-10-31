@@ -14,7 +14,7 @@ html, body {
 
 * {
   font-family: "Raleway";
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 .top-nav {
