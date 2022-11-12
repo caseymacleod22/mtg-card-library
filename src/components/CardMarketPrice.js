@@ -17,7 +17,7 @@ export default function CardMarketPrice() {
     return (
         <div className="sets">
             <img src={card} alt="" />
-            {/* {card} */}
+            {card}
         </div>
     )
 }
