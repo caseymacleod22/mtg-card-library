@@ -2,7 +2,7 @@ export default function Nav () {
     return (
   <section class="top-nav">
     <div>
-      Logo Here
+      {/* Logo Here */}
     </div>
     <input id="menu-toggle" type="checkbox" />
     <label class='menu-button-container' for="menu-toggle">
