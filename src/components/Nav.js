@@ -9,7 +9,7 @@ export default function Nav () {
     <div class='menu-button'></div>
   </label>
     <ul class="menu">
-      {/* <li>One</li> */}
+      <li>One</li>
       <li>Two</li>
       <li>Three</li>
       <li>Four</li>
