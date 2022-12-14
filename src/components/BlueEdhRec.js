@@ -42,7 +42,7 @@ export default function BlueEdhRec() {
             <AccordionItemPanel>
             <div className="sets">
                 {/* <h1>Green Cards EDHRec Data</h1> */}
-                {card}
+                {/* {card} */}
             </div>
             </AccordionItemPanel>
         </AccordionItem>
