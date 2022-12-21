@@ -28,7 +28,7 @@ export default function WhiteEdhRec() {
                 )
             })
             console.log(rec)
-            // setCard(rec)
+            setCard(rec)
             })
         }, [])
     return (
